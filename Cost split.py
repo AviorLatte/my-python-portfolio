@@ -5,7 +5,7 @@ while True:
     SA = input("split among how many people? ")
 
 
-    cal = float(TA) / float(SA)
+    cal = float(TA) / int(SA)
 
     print("you'r per head is:",cal)
     
