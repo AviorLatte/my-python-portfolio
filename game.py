@@ -30,4 +30,5 @@ elif user_input.lower() == "nicely":
     print("they all are frendliy")
 else:
     print("Type rudely/nicely")
+    
     print("you talk stuff out with the tribe and solve then compline.Good job!")

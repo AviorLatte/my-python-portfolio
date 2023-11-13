@@ -20,7 +20,7 @@ while True:
         year = int(input("what year do you what to check: "))
 
         #this one tells you is it is a leap year or not
-        print(is_leap(year),"thanks for uesing")
+        print(is_leap(year) + "\nthanks for using")
 
     #and if the user say no thay dont what to use this code it braks the loop/ ends the code
     elif user_input == "no":

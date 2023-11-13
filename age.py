@@ -2,7 +2,7 @@ import time
 name = input("what your name: ")
 print("hello " + name)
 birthyear = input("what is your birthyear ")
-age = (2023 - int(birthyear))
+age = (time.localtime().tm_year - int(birthyear))
 print("age")
 print("loading info ...")
 time.sleep(5)
